@@ -1,0 +1,6 @@
+== RestApiExample ==
+
+Sample code for implementing MediaWiki REST API endpoints in an extension.
+
+As of this writing (September, 2019), the REST API is still experimental,
+and everything in this extension is subject to change.

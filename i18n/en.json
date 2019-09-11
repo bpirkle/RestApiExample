@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bill Pirkle"
+		]
+	},
+	"restapiexample-desc": "Sample code for extensions that implement REST API endpoints."
+}

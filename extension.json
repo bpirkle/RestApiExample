@@ -1,0 +1,26 @@
+{
+	"name": "RestApiExample",
+	"author": [
+		"Bill Pirkle"
+	],
+	"url": "https://www.mediawiki.org/wiki/User:BPirkle_(WMF)",
+	"descriptionmsg": "restapiexample-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.34",
+		"platform": {
+			"php": ">= 7.2"
+		}
+	},
+	"AutoloadNamespaces": {
+		"RestApiExample\\": ""
+	},
+	"RestRoutes": [
+		{
+			"path": "/RestApiExample/v0.1/echo_path_param/{value_to_echo}",
+			"class": "RestApiExample\\Handler\\EchoPathParamHandler"
+		}
+	],
+	"manifest_version": 2
+}
